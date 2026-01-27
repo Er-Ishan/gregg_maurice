@@ -1,0 +1,36 @@
+/* Stripe Card Input Styling */
+.card-input-wrapper {
+  border: 1.5px solid #ced4da;
+  border-radius: 10px;
+  padding: 14px;
+  background: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-input-wrapper:focus-within {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.15rem rgba(25, 135, 84, 0.25);
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .table td,
+  .table th {
+    padding: 6px;
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}

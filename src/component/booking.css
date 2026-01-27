@@ -1,0 +1,360 @@
+/* Header styling */
+.booking-title-card {
+  background: #462170;
+  padding: 25px 15px;
+}
+
+.booking-title-card h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffd39c;
+}
+
+.booking-title-card p,
+.booking-title-card small {
+  color: white;
+}
+
+/* Main container */
+.booking-container {
+  padding-bottom: 50px;
+}
+
+/* Form card */
+.booking-form-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #dedede;
+}
+
+.section-header {
+  font-weight: 700;
+  font-size: 18px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* PAGE WRAPPER */
+.booking-title-card {
+  background: #f8f9fb;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #e3e6ef;
+}
+
+.booking-title-card h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.25rem;
+}
+
+/* MAIN CONTAINER */
+.booking-container {
+  max-width: 1200px;
+}
+
+/* LEFT: FORM CARD */
+.booking-form-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.75rem 1.5rem 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  height: 100%;
+}
+
+.section-header {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* LABELS & FIELDS */
+.booking-form-card .form-label {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.booking-form-card .form-control,
+.booking-form-card .form-select {
+  font-size: 0.93rem;
+  min-height: 44px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  box-shadow: none;
+}
+
+.booking-form-card .form-control:focus,
+.booking-form-card .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.15);
+}
+
+/* TOGGLES */
+.toggle-block {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.toggle-block h6 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* TERMS CHECKBOX */
+.booking-form-card .form-check-input {
+  cursor: pointer;
+}
+
+.product-overview-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.overview-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.overview-list li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.overview-list strong {
+    color: #3A1672;
+}
+
+.toggle-block {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between text and options */
+    background: #f8f9fa;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.toggle-block h6 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3A1672;
+}
+
+.toggle-block label {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.toggle-block input[type="radio"] {
+    cursor: pointer;
+}
+
+
+
+.summary-card {
+    max-width: 100%;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  background: #ff7a00;
+  border-color: #ff7a00;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submit-btn:hover {
+  background: #e86e00;
+  border-color: #e86e00;
+}
+
+/* RIGHT SUMMARY CARD - TRUE STICKY */
+.summary-card {
+    position: sticky !important;
+    top: 120px !important; /* adjust based on your navbar height */
+    z-index: 50;
+
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border: 2px solid #ff7a00;
+    height: auto;
+}
+
+
+/* SUMMARY LIST */
+.summary-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.1rem 0;
+}
+
+.summary-card li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.93rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.summary-card li span {
+  font-weight: 600;
+}
+
+/* TOTAL PRICE BOX */
+.price-box {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  background: #ff7a00;
+  color: #ffffff;
+}
+
+/* Make the summary card sticky while scrolling */
+.summary-card {
+    position: sticky;
+    top: 100px;          /* adjust based on navbar height */
+    z-index: 10;
+
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    border: 2px solid #ff7a00;
+}
+
+
+/* EQUAL CARD HEIGHTS ON BIG SCREENS */
+@media (min-width: 992px) {
+  .booking-container .row {
+    align-items: flex-start;
+    
+  }
+
+  .booking-form-card,
+  .summary-card {
+    height: 100%;
+  }
+}
+
+/* SMALL SCREEN ADJUSTMENTS */
+@media (max-width: 991.98px) {
+  .summary-card {
+    position: static; /* normal scrolling on tablets & phones */
+    margin-top: 1rem;
+  }
+}
+
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Toggles */
+.toggle-block {
+  margin: 10px 0 15px;
+}
+
+.toggle-block h6 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Right Card */
+.summary-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #dedede;
+}
+
+.summary-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.summary-card ul li {
+  font-size: 14px;
+  padding: 4px 0;
+  font-weight: 600;
+}
+
+.summary-card ul li span {
+  font-weight: normal;
+}
+
+.price-box {
+  background: #ffa200;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  margin-top: 18px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #ffa200;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+.submit-btn:hover {
+  background: #ffb733;
+}
+
+/* RESPONSIVE FIXES */
+@media(max-width: 991px) {
+  .summary-card {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 576px) {
+  .booking-title-card h1 {
+    font-size: 24px;
+  }
+
+  .section-header {
+    font-size: 16px;
+  }
+
+  .price-box {
+    font-size: 16px;
+  }
+}
